@@ -11,7 +11,11 @@ body
 /*Design for navbar */
 .header
 {
-    background: #FFF8F3;  
+    background: #FFF8F3;
+    background-image: url(../style/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 .org
 {
@@ -96,4 +100,91 @@ li>a
     padding-left: 227px;
     padding-top: 30px;
 }
-
+.img1
+{
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;  
+}
+/* main-about me */
+.about_me
+{
+    width: 1140px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF8F3;
+    justify-content: space-between;
+    margin-left: 360px;
+    margin-top: 90px;
+}
+.title1
+{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 90px;
+}
+.p1
+{
+    width: 827px;
+    color:  #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    padding-top: 10px;
+    padding-left: 156px;
+    
+}
+.personinfo
+{
+    display: flex;
+    align-items: center;
+    padding-left: 215px;
+    padding-top: 40px;
+}
+.personinfo > div
+{
+    padding: 25px;
+}
+.infoi
+{
+    color:  #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+.info_des
+{
+    color:  #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+/* main-what_do_i_do */
+.title2
+{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 130px;
+}
+.p2
+{
+    width: 909px;
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    padding-top: 30px;
+    padding-left: 500px;
+}
